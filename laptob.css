@@ -1,0 +1,216 @@
+@media (min-width:1000px) and (max-width:1200px){
+     
+     html,body{
+          overflow-x: hidden;
+     }
+     
+     .header{
+          width: 100%;
+      
+          .nav-manu{
+               background-color: rgb(242, 242, 242);
+               height: 50px;
+               width: 1009px;
+               margin-top: 40px;
+               margin-left: 100px;
+          }
+     }
+     
+    
+     
+     /* hero section */
+     
+     .hero-text{
+     
+          & h1{
+               margin-left: 2rem;
+               font-size: 61px;
+     
+              
+          }
+     
+     
+     }
+     
+     .indicator{
+          display: flex;
+          margin-left: 350px;
+          gap: 8px;
+     
+     }
+     
+     
+     /* book room section */
+     
+     .Bookroom{
+          padding: 100px 50px;
+          margin: 0 auto;
+         .bgBook{
+          background-color: #E9F3F6;
+          width: 100%;
+          border-radius: 42px;
+          position: relative;
+     
+          .booktext{
+               margin: 0px auto;
+               align-items: center;
+               text-align: center;
+               padding: 20px;
+     
+               & h3{
+                    font-size: 32px;
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    margin-top: 30px;
+               }
+               & p{
+                    font-family: var(--font-family);
+                    padding: 5px 0;
+                    color: #5E5E5E;
+               }
+          }
+     
+         }
+     
+         
+     }
+     
+     
+     
+     /* service  section*/
+     .service{
+          background-color: #F3F3F3;
+          padding: 90px -90px;
+     
+     }
+     
+     .service-all{
+          display: grid;
+          grid-template-columns: auto auto;
+          gap: 2px;
+          margin-left: 56px;
+
+     }
+     
+     
+     /* Special Offers section */
+     
+     .Special-offers{
+          & div{
+     
+               .offer{
+                    display:grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 40px;
+                    padding: 60px 90px;
+                    background-color: white;
+                    margin-left: 40px;
+                    
+                    justify-content: space-around;
+     
+                    #div1{
+                         width: 400px;
+                         height: 560px;
+                         & img{
+                              width: 350px;
+                         }
+                    }
+     
+                    .div{
+                         box-shadow:  0 0 50px rgb(128, 126, 126);
+                         height: 547px;
+                         gap: 8px;
+                         border-radius: 42px;
+                         width: 400px;
+                         height: 560px;
+                         transition: 0.3s ease-in-out;
+                         & img{
+                              width: 340px;
+                              margin-left: 30px;
+                              margin-top: 20px;
+                              width: 300px;
+                              height: 250px;
+                         }
+     
+                         .offer-text{
+                              padding: 30px 30px;
+                              font-size: 22px;
+     
+     
+                         }
+     
+     
+     
+                    }
+     
+                    .div:hover{
+                         transform: translateY(-10px);
+                    }
+     
+     
+               }
+     
+               }
+     
+     
+          }
+     
+     
+     
+          /* footer section */
+     
+     
+     .footer{
+     
+          .footer-promo{
+               margin-top: 30px;
+              & h2{
+               font-size: 30px;
+               font-weight: 500;
+              }
+     
+              .email{
+               display: flex;
+               margin-top: 40px;
+     
+               #email{
+                    width: 200px;
+                    height: 60px;
+                    
+               }
+     
+              }
+          }
+     
+     
+          .footer-logo{
+
+               & h2{
+                    font-size: 50px;
+               }
+               .footer-content{
+                    display: flex;
+                    gap: 60px;
+                    margin-top: 50px;
+                    margin-left: 60px;
+     
+                    & div{
+                         & p{
+                              padding: 8px;
+                              font-size: 20px;
+                         }
+                    }
+               }
+     
+          }
+     
+     
+     }
+     
+     .copyright{
+          text-align: center;
+          color: whitesmoke;
+          background-color: #000000;
+          padding-top: 10px;
+     }
+}
